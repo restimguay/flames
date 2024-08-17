@@ -1,1 +1,7 @@
-
+server:
+  port: 8045
+spring:
+  application:
+    name: web-ui
+  thymeleaf:
+    prefix: 'file:./html/web-ui/'
